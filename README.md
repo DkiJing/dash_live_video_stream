@@ -120,8 +120,6 @@ Close nginx server `sudo /usr/local/nginx/sbin/nginx -s stop`
 
 Push video stream by OBS
 
->Streaming Service: Custom
-
->Server: rtmp://localhost/live
-
->Stream Key: test
+>Streaming Service: Custom  
+Server: rtmp://localhost/live  
+Stream Key: test
