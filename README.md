@@ -123,3 +123,6 @@ Push video stream by OBS
 >Streaming Service: Custom  
 Server: rtmp://localhost/live  
 Stream Key: test
+
+Pull video stream by browser
+>http://localhost:8080/DPlayer-master/baseline.html
