@@ -125,4 +125,4 @@ Server: rtmp://localhost/live
 Stream Key: test
 
 Pull video stream by browser
->http://localhost:8080/DPlayer-master/baseline.html
+`http://localhost:8080/DPlayer-master/baseline.html`
