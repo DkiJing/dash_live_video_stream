@@ -114,5 +114,14 @@ I use [DPlayer](https://github.com/MoePlayer/DPlayer) to implement switching dif
 </script>
 ```
 ## Operation flow
+Start nginx server `sudo /usr/local/nginx/sbin/nginx`
 
+Close nginx server `sudo /usr/local/nginx/sbin/nginx -s stop`
 
+Push video stream by OBS
+
+>Streaming Service: Custom
+
+>Server: rtmp://localhost/live
+
+>Stream Key: test
