@@ -90,28 +90,28 @@ http {
 ## Video playing page
 I use [DPlayer](https://github.com/MoePlayer/DPlayer) to implement switching different version of resolution.
 ```
-        <script>
-            const player = new DPlayer({
-                container: document.getElementById('dplayer'),
-                autoplay: true,
-                video:{
-                    quality:[
-                    {
-                        name: 'high',url: 'http://localhost:8080/dash/zhou_hi/index.mpd',type: 'dash'
-                    },
-                    {
-                        name: 'median', url: 'http://localhost:8080/dash/zhou_med/index.mpd',type: 'dash'
-                    },
-                    {
-                        name: 'low',url: 'http://localhost:8080/dash/zhou_low/index.mpd',type: 'dash'
-                    },
-                    {
-                        name: 'auto', url:'http://localhost:8080/dash/zhou.mpd',type:'dash'
-                    }],
-                    defaultQuality: 0
-                }
-            }); 
-        </script>
+<script>
+    const player = new DPlayer({
+        container: document.getElementById('dplayer'),
+        autoplay: true,
+        video:{
+            quality:[
+            {
+                name: 'high',url: 'http://localhost:8080/dash/zhou_hi/index.mpd',type: 'dash'
+            },
+            {
+                name: 'median', url: 'http://localhost:8080/dash/zhou_med/index.mpd',type: 'dash'
+            },
+            {
+                name: 'low',url: 'http://localhost:8080/dash/zhou_low/index.mpd',type: 'dash'
+            },
+            {
+                name: 'auto', url:'http://localhost:8080/dash/zhou.mpd',type:'dash'
+            }],
+            defaultQuality: 0
+        }
+    }); 
+</script>
 ```
 ## Operation flow
 
