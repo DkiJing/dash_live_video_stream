@@ -102,7 +102,7 @@ Push video stream by OBS
 
 >Streaming Service: Custom  
 Server: rtmp://120.78.166.34/live
-Stream Key: test
+Stream Key: zhou
 
 Pull video stream by browser
 `http://localhost:8080/baseline.html`
