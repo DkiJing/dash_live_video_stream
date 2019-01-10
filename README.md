@@ -105,4 +105,4 @@ Server: rtmp://120.78.166.34/live
 Stream Key: zhou
 
 Pull video stream by browser
-`http://120.78.116.34:8080/baseline.html`
+`http://120.78.166.34:8080/dash.js/baseline.html`
