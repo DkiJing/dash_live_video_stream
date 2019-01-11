@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://cdn.bootcss.com/dplayer/1.25.0/DPlayer.min.css">
+    <body>
+        <div id="dplayer"></div>
+        <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dplayer/1.25.0/DPlayer.min.js"></script>
+        <script>
+            const player = new DPlayer({
+                container: document.getElementById('dplayer'),
+                autoplay: true,
+                video:{
+                    quality:[
+                    {
+                       name: 'auto', url:'http://120.78.166.34:8080/dash/zhou.mpd',type:'dash'
+
+                    },
+                    {
+                        name: 'median', url: 'http://120.78.166.34:8080/dash/zhou_med/index.mpd',type: 'dash'
+                    },
+                    {
+                        name: 'low',url: 'http://120.78.166.34:8080/dash/zhou_low/index.mpd',type: 'dash'
+                    },
+                    {
+                        name: 'high', url:'http://120.78.166.34:8080/dash/zhou_hi/index.mpd',type:'dash'
+                    }],
+                    defaultQuality: 0
+                }
+            });
+            
+        </script>
+    </body>
+</html>
